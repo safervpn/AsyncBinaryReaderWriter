@@ -1,4 +1,7 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/wdqkh3g9hgr6e8k6?svg=true)](https://ci.appveyor.com/project/ronnieoverby/asyncbinaryreaderwriter)
+Forked from https://github.com/ronnieoverby/AsyncBinaryReaderWriter
+
+Added support for .net 4.5 so we can use it in our app
+
 
 # AsyncBinaryReaderWriter
 AsyncBinaryReader and AsyncBinaryWriter for .NET

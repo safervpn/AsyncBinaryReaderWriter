@@ -522,7 +522,7 @@ namespace Overby.Extensions.AsyncBinaryReaderWriter
 
             if (count == 0)
             {
-                return Array.Empty<Char>();
+                return new char[0];
             }
 
             // SafeCritical: we own the chars buffer, and therefore can guarantee that the index and count are valid
@@ -566,7 +566,7 @@ namespace Overby.Extensions.AsyncBinaryReaderWriter
 
             if (count == 0)
             {
-                return Array.Empty<byte>();
+                return new byte[0];
             }
 
             byte[] result = new byte[count];
